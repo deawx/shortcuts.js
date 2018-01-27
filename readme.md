@@ -1,6 +1,6 @@
 # ShortcutsJS
 
-ShortcutsJS is a keyboard shortcut library that triggers CustomEvents based on keys pressed. You can listen to these events on any specific element you want.
+ShortcutsJS is a keyboard shortcut library that triggers [CustomEvents](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) based on keys pressed. You can listen to these events on any specific element you want.
 
 ## Demo
 
@@ -8,16 +8,16 @@ Check out the demo [here](https://arjndr.github.io/ShortcutsJS)
 
 ## Usage
 
-1. [Download](https://github.com/arjndr/shortcuts.js) the library
+1. [Download](https://github.com/arjndr/shortcuts.js/releases) the library
 
 2. Add the library to your project
   ```html
-    <script src="path/to/shortcuts.min.js"></script>
+  <script src="path/to/shortcuts.min.js"></script>
   ```
 
 3. Create a ShortcutsJS element
   ```javascript
-    var ShortcutElement = new Shortcuts(document.getElementById('element'));
+  var ShortcutElement = new Shortcuts(document.getElementById('element'));
   ```
 
 4. Listen to **specific** shortcut events on the element
@@ -46,10 +46,12 @@ Check out the demo [here](https://arjndr.github.io/ShortcutsJS)
 
 ## Browser Compatibility
 
-This library is tested and confirmed to be working on the following browsers and above:
+This library is confirmed to be working on the following browsers and above:
 
 1. Google Chrome 16+
 2. Mozilla Firefox 11+
+
+Can someone test this on IE please?
 
 ## Keys and their names in ShortcutsJS
 
@@ -81,5 +83,8 @@ Keys A-Z, 0-9, Insert, Home, PageUp, PageDown, Delete, Backspace, End, CapsLock,
 | &#x2192;                   | RightArrow                    |
 | *&#8862;* (Windows key)    | WindowsLeft or WindowsRight   |
 
+Thanks to wesbos' [keycodes](https://github.com/wesbos/keycodes/)
 
-## MIT &copy; Akash Rajendra
+## License
+
+[MIT](http://opensource.org/licenses/MIT) Copyright &copy; 2018 Akash Rajendra

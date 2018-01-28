@@ -1,4 +1,6 @@
-# ShortcutsJS
+# ShortcutsJS 
+[![GitHub license](https://img.shields.io/github/license/arjndr/shortcuts.js.svg)](https://github.com/arjndr/shortcuts.js/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/arjndr/shortcuts.js.svg)](https://github.com/arjndr/shortcuts.js/issues)
 
 ShortcutsJS is a keyboard shortcut library that triggers [CustomEvents](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) based on keys pressed. You can listen to these events on any specific element you want.
 

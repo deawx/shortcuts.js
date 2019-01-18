@@ -89,4 +89,4 @@ Thanks to wesbos' [keycodes](https://github.com/wesbos/keycodes/)
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) Copyright &copy; 2018 Akash Rajendra
+[MIT](http://opensource.org/licenses/MIT) Copyright &copy; 2018 - 2019 Akash Rajendra
